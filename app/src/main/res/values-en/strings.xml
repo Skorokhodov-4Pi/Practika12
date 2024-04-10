@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NMedia</string>
+    <string name="hello">Nmedia</string>
+    <string name="author">BTPIT</string>
+    <string name="published">21 may 18:36</string>
+    <string name="content">GBPOU VO "BTPIT" was formed in accordance with the decree of the Government of the Voronezh Region dated May 20, 2015 No. 401 as a result of reorganization in the form of a merger of GOBU SPO VO "BIT", GOBU SPO VO "BTIVT" and GOBU NPO VO "PU No. 34 Borisoglebsk"\\Educational and production Center (cluster) of the federal project\\n\\\"Professionalism\\\" in the fields of "Tourism and services" on the basis of GBPOU HE \\\"HSHN\\\" and "Pedagogy" on the basis of GBPOU HE \\\"GPK\\\".\\Partner colleges: Basic NGO - GBPOU IN \\\"HSHN\\\"; network OOS - GBPOU VO \\\"BAIK\\\", GBPOU VO \\\"VGPGC\\\", GBPOU VO \\\"VTPP\\\", GBPOU VO \\\"VGPTK\\\", GBPOU VO \\\"BTPIT\\\".\\College partners: Basic NGO - GBPOU VO \\\"GPK\\\"; network NGO - GBPOU VO \\\"VGPGC named after V.M. Peskov“, GBPOU VO \\\"BTPIT\\\".\\N Learn more about the federal project "Professionalism" on the website\""</string>
+    <string name="img">Image</string>
+    <string name="add">Add</string>
+    <string name="remove">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="errorAdd">Error add</string>
+    <string name="chooser_share_post">Ssilka na post</string>
+    <string name="error_content">Error content</string>
+</resources>

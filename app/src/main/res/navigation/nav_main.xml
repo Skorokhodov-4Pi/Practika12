@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/newPostFragment"
+        android:name="ru.btpit.zadanie2.activity.NewPostActivity"
+        android:label="fragment_new_post"
+        tools:layout="@layout/fragment_new_post" />
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="ru.btpit.zadanie2.activity.MainActivity"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed" >
+        <action
+            android:id="@+id/action_feedFragment_to_newPostFragment"
+            app:destination="@id/newPostFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_feedFragment_to_onePostFragment"
+            app:destination="@id/onePostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onePostFragment"
+        android:name="ru.btpit.zadanie2.activity.OnePostFragment"
+        android:label="activity_one_post_fragment"
+        tools:layout="@layout/activity_one_post_fragment" >
+        <action
+            android:id="@+id/action_onePostFragment_to_newPostFragment3"
+            app:destination="@id/newPostFragment" />
+    </fragment>
+</navigation>
